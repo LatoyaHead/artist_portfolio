@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main {
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+section {
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.first {
+    background-color: plum; 
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+.second {
+    background-color: aqua;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.third {
+    background-color: rgb(81, 228, 154);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.fourth {
+    background-color: purple;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.fifth {
+    background-color: orangered;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.sixth {
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.info-1 {
+    text-align: center;
+    font-size: 10pt;
+}
+.image-1 {
+    width: 40%;
+    transparent: 0px;
+    border-radius: 40%;
+    margin-top: 10%;
+}
+
+.line-2 {
+    text-decoration-line: overline;
+    line-height: auto;
+    font-size: 7pt;
+}
