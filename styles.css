@@ -30,10 +30,6 @@ section {
     height: 200px;
     padding: 25px;
 }
-.first {
-    background-color: plum; 
-    display: inline-block;
-}
 .first:hover {
     background-color: #ccc;
     transition: background-color .5s;
@@ -58,24 +54,28 @@ section {
     background-color: #ccc;
     transition: background-color .5s;
 }
+.first {
+    background-color: #f1c40f; 
+    display: inline-block;
+}
 .second {
-    background-color: aqua;
+    background-color: #e67e22;
     display: inline-block;
 }
 .third {
-    background-color: rgb(81, 228, 154);
+    background-color: #e74c3c;
     display: inline-block;
 }
 .fourth {
-    background-color: purple;
+    background-color: #27ae60;
     display: inline-block;
 }
 .fifth {
-    background-color: orangered;
+    background-color: #3498db;
     display: inline-block;
 }
 .sixth {
-    background-color: maroon;
+    background-color: #8e44ad;
     display: inline-block;
 }
 .info-1 {
