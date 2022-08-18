@@ -34,23 +34,29 @@ section {
     background-color: plum; 
     display: inline-block;
 }
+.first:hover {
+    background-color: #ccc;
+    transition: background-color .5s;
+}
 .second:hover {
-    background-color: black;
+    background-color: #ccc;
+    transition: background-color .5s;
 }
 .third:hover {
-    background-color: black;
+    background-color: #ccc;
+    transition: background-color .5s;
 }
 .fourth:hover {
-    background-color: black;
+    background-color: #ccc;
+    transition: background-color .5s;
 }
 .fifth:hover {
-    background-color: black;
+    background-color: #ccc;
+    transition: background-color .5s;    
 }
 .sixth:hover {
-    background-color: black;
-}
-.first:hover {
-    background-color: black;
+    background-color: #ccc;
+    transition: background-color .5s;
 }
 .second {
     background-color: aqua;
@@ -82,18 +88,23 @@ section {
 
 .second:hover .img-text .image-1 {
     width: 40%;
+    transition: width .5s;
 }
 .third:hover .img-text .image-1 {
     width: 40%;
+    transition: width .5s;
 }
 .fourth:hover .img-text .image-1 {
     width: 40%;
+    transition: width .5s;
 }
 .fifth:hover .img-text .image-1 {
     width: 40%;
+    transition: width .5s;
 }
 .sixth:hover .img-text .image-1 {
     width: 40%;
+    transition: width .5s;
 }
 .line-2 {
     text-decoration-line: overline;
